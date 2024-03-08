@@ -14,7 +14,6 @@ class Solution:
                 
                 cnt += 1
                 mp[i] -= 1
-        print(mp)
         ans = len(b) + len(a) - (2 * cnt)
         return ans
     def minSteps(self, s: str, t: str) -> int:
@@ -27,6 +26,3 @@ class Solution:
              ans = self.ana(t,s)
 
         return ans
-        
-
-        
